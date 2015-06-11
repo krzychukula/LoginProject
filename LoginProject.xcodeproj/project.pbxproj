@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		83BF706E1B295F8E00AD1A5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BF706D1B295F8E00AD1A5F /* AppDelegate.swift */; };
-		83BF70701B295F8E00AD1A5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BF706F1B295F8E00AD1A5F /* ViewController.swift */; };
 		83BF70731B295F8E00AD1A5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83BF70711B295F8E00AD1A5F /* Main.storyboard */; };
 		83BF70751B295F8E00AD1A5F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83BF70741B295F8E00AD1A5F /* Images.xcassets */; };
 		83BF70781B295F8E00AD1A5F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83BF70761B295F8E00AD1A5F /* LaunchScreen.xib */; };
 		83BF70841B295F8E00AD1A5F /* LoginProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BF70831B295F8E00AD1A5F /* LoginProjectTests.swift */; };
+		83BF708E1B295FFE00AD1A5F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BF708D1B295FFE00AD1A5F /* LoginViewController.swift */; };
+		83BF70901B29601300AD1A5F /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BF708F1B29601300AD1A5F /* CreateAccountViewController.swift */; };
+		83BF70921B29602500AD1A5F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BF70911B29602500AD1A5F /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +31,15 @@
 		83BF70681B295F8E00AD1A5F /* LoginProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83BF706C1B295F8E00AD1A5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83BF706D1B295F8E00AD1A5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		83BF706F1B295F8E00AD1A5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		83BF70721B295F8E00AD1A5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		83BF70741B295F8E00AD1A5F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		83BF70771B295F8E00AD1A5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		83BF707D1B295F8E00AD1A5F /* LoginProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83BF70821B295F8E00AD1A5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83BF70831B295F8E00AD1A5F /* LoginProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginProjectTests.swift; sourceTree = "<group>"; };
+		83BF708D1B295FFE00AD1A5F /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		83BF708F1B29601300AD1A5F /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		83BF70911B29602500AD1A5F /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +82,13 @@
 			isa = PBXGroup;
 			children = (
 				83BF706D1B295F8E00AD1A5F /* AppDelegate.swift */,
-				83BF706F1B295F8E00AD1A5F /* ViewController.swift */,
 				83BF70711B295F8E00AD1A5F /* Main.storyboard */,
 				83BF70741B295F8E00AD1A5F /* Images.xcassets */,
 				83BF70761B295F8E00AD1A5F /* LaunchScreen.xib */,
 				83BF706B1B295F8E00AD1A5F /* Supporting Files */,
+				83BF708D1B295FFE00AD1A5F /* LoginViewController.swift */,
+				83BF708F1B29601300AD1A5F /* CreateAccountViewController.swift */,
+				83BF70911B29602500AD1A5F /* MainViewController.swift */,
 			);
 			path = LoginProject;
 			sourceTree = "<group>";
@@ -212,8 +218,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83BF70701B295F8E00AD1A5F /* ViewController.swift in Sources */,
+				83BF70901B29601300AD1A5F /* CreateAccountViewController.swift in Sources */,
+				83BF708E1B295FFE00AD1A5F /* LoginViewController.swift in Sources */,
 				83BF706E1B295F8E00AD1A5F /* AppDelegate.swift in Sources */,
+				83BF70921B29602500AD1A5F /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
