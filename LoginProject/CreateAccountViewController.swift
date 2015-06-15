@@ -38,6 +38,8 @@ class CreateAccountViewController: UIViewController {
     
 
     @IBAction func createAccountButtonPressed(sender: UIButton) {
+        self.dismissViewControllerAnimated(true, completion: nil)
+        
         if choosePasswordTextField.text == confirmPasswrodTextField.text &&
             choosePasswordTextField.text != nil {
                 
@@ -49,7 +51,7 @@ class CreateAccountViewController: UIViewController {
                 delegate?.accountCreated()
                 
         }
-        self.dismissViewControllerAnimated(true, completion: nil)
+        
     }
 
     @IBAction func cancelButtonPressed(sender: UIButton) {
